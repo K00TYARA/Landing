@@ -1,52 +1,44 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		
-		<meta charset="utf-8">
-		<title>Сайт-визитка</title>
-	</head>
-	<body>
-		<div id="color">
-		<header>
-			<h1>Сайт-визитка</h1>
-		</header>
-		<main>
-			<div id="imgg">
-				<h2 id="title">Котлов Сергей</h2>
-				<img src="photo/me.jpg" width="300" alt="Me" class="line">
-				<div class="line block">
-					<h2 id="about">Обо мне</h2>
-					<p>
-						Мне <strong>16 лет</strong>, родился в Мурманском районе в <em>России</em>, на данный момент живу в <em>Беларуси</em>.
-					</p>
-					<h2 id="tidy">Образование</h2>
-					<p>
-						Учусь в 10 классе в <strong>ГУО Гимназии №5</strong>
-					</p>
-					<h2 id="experience">Опыт работы</h2>
-					<p>
-						Установил маме <strong>Internet Explorer</strong>
-					</p>
-					<h2 id="hobby">Хобби</h2>
-					<p>
-						Танцую <em>брейкинг</em> около 2 с половиной лет. Занимаюсь некоторыми видами 	спорта.
-					</p>
-				</div>
-		</main>
-		<footer>
-			<div  class="subtitle">
-				<p id="center">
-					Телефон: <a href="2053572" title="Мой номер телефона" class="href">+375(29)27-53-502</a> <br>
-					ВКонтакте: <a href="https://vk.com/ko00tyara" title="Тут я" target="_blank" class="href">Сергей Котлов</a>
-				</p>
+<head>
+	<link rel="stylesheet" type="text/css" href="./styles/style.css">
+	<meta charset="utf-8">
+	<title>Верстка лэндинга</title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="logo">
+				IC "Repair Design Project"
 			</div>
-			<div  class="subtitle">
-				<p id="absolute">
-					<a href="https://pixabay.com/ru/images/search/сладости/" title=":D" target="_blank" class="href">Сладости</a>
-				</p>
-			</div>
-		</footer>
+			<nav>
+				<ul class="header-navigation">
+					<li class="header-navigation__item"><a href="#">HOME</a></li>
+					<li class="header-navigation__item"><a href="#">PROJECTS</a></li>
+					<li class="header-navigation__item"><a href="#">MEASUREMENT</a></li>
+					<li class="header-navigation__item"><a href="#">TEAM</a></li>
+					<li class="header-navigation__item"><a href="#">REVIEWS</a></li>
+					<li class="header-navigation__item"><a href="#">CONTACTS</a></li>
+				</ul>
+			</nav>
+				<a href="#" class="number">+7 (928) 768-32-39</a>
+			<button class="button">Request a call</button>
 		</div>
-	</body>
+	</header>
+	<main>
+		<section class="first">
+			<div class="container first-container">
+				<div>
+					<h1 class="title">
+						Turnkey Repair in the <br> city of <span class="title-span">Rostov-on-Don</span>
+					</h1>
+					<p class="title-text">Get ready-made turnkey repairs on time <br> with work time saving up to 45 days and 20% from <br> cost of materials due to the organization of work</p>
+					<button class="button">CALCULATE THE COST</button>
+					<button class="button button2">SUBMIT YOUR APPLICATION</button>
+				</div>
+			</div>
+			<div class="first-overlay"></div>
+		</section>
+	</main>
+</body>
 </html>
