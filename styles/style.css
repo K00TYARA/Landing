@@ -22,6 +22,13 @@ header{
 	background-color: black;
 }
 
+
+
+/* First block */
+
+
+
+
 .container{
 	margin: 0 auto;
 	width: 1438px;
@@ -126,6 +133,14 @@ header{
 	font-size: 22px;
 	line-height: 36px;
 }
+
+
+
+
+/* Second block */
+
+
+
 
 .second{
 	background-color: black;
@@ -241,6 +256,14 @@ header{
 	margin-top: 53px;
 }
 
+
+
+/* Third block */
+
+
+
+
+
 .third{
 	height: 1000px;
 }
@@ -303,6 +326,7 @@ header{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	   margin-top: 93px;
 }
 
 .third-margin{
@@ -329,7 +353,7 @@ header{
 .input{
 	font-size: 14px;
     line-height: 23px;
-    color: #363636;
+    color: black;
     border-style: solid;
     border-top: 0px;
     border-right: 0px;
@@ -349,4 +373,111 @@ header{
 
 .button3:hover{
 	color: white;
+}
+
+.div-checkbox{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 39px;
+}
+
+.checkbox-text{
+	font-size: 14px;
+	line-height: 23px;
+	color: black;
+}
+
+
+
+
+/* Fourh block */
+
+
+
+
+.fourth{
+	height: 1000px;
+}
+
+.fourth-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 100px;
+}
+
+.fourth-title{
+	font-size: 20px;
+	line-height: 28px;
+	color: black;
+}
+
+.tools{
+	margin-top: 13px;
+}
+
+.picture4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 31px;
+}
+
+.picture4-div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.image{
+	width: 392px;
+	height: 421px;
+	margin-right: 30px; 
+}
+
+.picture4-div2{
+	background-color: white;
+	display: flex;
+    flex-direction: column;
+    margin-left: -20px;
+    margin-top: -127px;
+    width: 330px;
+    height: 286px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+}
+
+.picture4-title{
+	font-size: 18px;
+	line-height: 25px;
+	color: black;
+}
+
+.picture4-ul{
+	font-size: 13px;
+	line-height: 27px;
+	color: #959595;
+}
+
+.picture4-div3{
+	width: 228px;
+    height: 54px;
+    margin-top: -27px;
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.picture-div0{
+	display: flex;
+	align-items: flex-start;
 }
