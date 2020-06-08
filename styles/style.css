@@ -24,7 +24,7 @@ header{
 
 
 
-/* First block */
+/* Header */
 
 
 
@@ -38,6 +38,7 @@ header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	height: 83px;
 }
 
 .logo, .number{
@@ -46,6 +47,7 @@ header{
 
 .logo{
 	margin-left: -75px;
+	text-transform: uppercase;
 }
 
 .button{
@@ -56,11 +58,12 @@ header{
 	text-transform: uppercase;
 	border-radius: 2px;
 	box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+	outline: none;
  }
 
 .button:hover{
 	background: #E3B873;
-	border: none;
+	border-color: rgba(0, 0, 0, 0);
 	cursor: pointer;
 }
 
@@ -81,6 +84,13 @@ header{
 .header-navigation__item a:hover{
 	color: #E3B873;
 }
+
+
+
+/* First block */
+
+
+
 
 .first{
 	background-image: url(../images/first.jpg);
@@ -114,7 +124,7 @@ header{
 }
 
 .text{
-	font-family: Nunito Sans;
+	font-family: NunitoSans;
 	font-style: normal;
 	font-weight: normal;
 	color: white;
@@ -145,13 +155,13 @@ header{
 .second{
 	background-color: black;
 	background-size: cover;
-	height: 1200px;
 }
 
 .second-container{
-	height: 552px;
 	padding-top: 107px;
 	display: flex;
+	padding-bottom: 416px;
+	justify-content: center;
 }
 
 .second-container1{
@@ -172,7 +182,6 @@ header{
 	font-size: 14px;
 	line-height: 27px;
 	width: 442px;
-	height: 86px;
 }
 
 .second-subtitle{
@@ -375,6 +384,10 @@ header{
 	color: white;
 }
 
+.checkbox{
+	cursor: pointer;
+}
+
 .div-checkbox{
 	display: flex;
 	align-items: center;
@@ -428,31 +441,34 @@ header{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-right: 30px;
 }
 
 .image{
 	width: 392px;
 	height: 421px;
-	margin-right: 30px; 
+ 
 }
 
 .picture4-div2{
 	background-color: white;
 	display: flex;
     flex-direction: column;
-    margin-left: -20px;
     margin-top: -127px;
     width: 330px;
-    height: 286px;
-    position: relative;
-    z-index: 1;
+    height: 300px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    
 }
 
 .picture4-title{
 	font-size: 18px;
 	line-height: 25px;
 	color: black;
+	margin-top: 25px;
+    margin-left: 34px;
+    margin-bottom: -13px;
+    padding-bottom: 13px;
 }
 
 .picture4-ul{
@@ -474,10 +490,24 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 3;
+
 }
 
 .picture-div0{
 	display: flex;
 	align-items: flex-start;
+}
+
+
+
+/* Five block */
+
+
+
+.five-container{
+	margin: 0 auto;
+}
+
+.five-div2{
+ background-image: url(./images/fivediv.svg);
 }
