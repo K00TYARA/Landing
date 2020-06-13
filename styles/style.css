@@ -24,7 +24,19 @@ header{
 
 
 
+
+
+
+
+
+
 /* Header */
+
+
+
+
+
+
 
 
 
@@ -87,7 +99,21 @@ header{
 
 
 
+
+
+
+
+
+
+
 /* First block */
+
+
+
+
+
+
+
 
 
 
@@ -147,7 +173,21 @@ header{
 
 
 
+
+
+
+
+
+
 /* Second block */
+
+
+
+
+
+
+
+
 
 
 
@@ -267,7 +307,21 @@ header{
 
 
 
+
+
+
+
+
+
+
+
 /* Third block */
+
+
+
+
+
+
 
 
 
@@ -307,17 +361,26 @@ header{
 	height: 434px;
 	position: relative;
 	z-index: 1;
+	
 }
 
-.pusk{
-	margin-top: -270px;
-	z-index: 1;
+.third-overlay{
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .line1{
 	background: #E3B873;
 	border-radius: 30px;
-	margin: 200px;
+	margin-top: 62px;
 }
 
 .third-text{
@@ -325,17 +388,14 @@ header{
 	line-height: 37px;
 	color: #363636;
 	text-align: center;
-}
 
-.third-div_text{
-	margin-top: -190px;
 }
 
 .input1{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	   margin-top: 93px;
+	margin-top: 93px;
 }
 
 .third-margin{
@@ -359,6 +419,11 @@ header{
 	flex-direction: column;
 }
 
+.email1{
+	display: flex;
+	flex-direction: column;
+}
+
 .input{
 	font-size: 14px;
     line-height: 23px;
@@ -369,6 +434,7 @@ header{
     border-left: 0px;
     border-color: rgba(54, 54, 54, 0.5);
     height: 32px;
+    width: 231px;
 }
 
 .button3{
@@ -384,18 +450,18 @@ header{
 	color: white;
 }
 
-.checkbox{
+.checkbox1{
 	cursor: pointer;
 }
 
-.div-checkbox{
+.div-checkbox1{
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin-top: 39px;
 }
 
-.checkbox-text{
+.checkbox-text1{
 	font-size: 14px;
 	line-height: 23px;
 	color: black;
@@ -404,7 +470,18 @@ header{
 
 
 
+
+
+
+
+
 /* Fourh block */
+
+
+
+
+
+
 
 
 
@@ -500,14 +577,228 @@ header{
 
 
 
+
+
+
+
 /* Five block */
 
 
 
-.five-container{
+
+
+
+
+
+
+.five{
 	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.five-container1{
+	display: flex;
+	background-size: cover;
+	margin-top: -120px;
+}
+
+.five-div{
+	background-image: url(../images/five.png);
+	width: 703px;
+	height: 645px;
+}
+
+.five-div1{
+	display: flex;
+	margin-top: 90px;
+	margin-left: 249px;
 }
 
 .five-div2{
- background-image: url(./images/fivediv.svg);
+	background: #E3B873;
+	border: 8px solid #FFFFFF;
+	box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+	border-radius: 50%;
+	width: 55px;
+	height: 55px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	color: #FFFFFF;
+
+}
+
+.five-text{
+	font-size: 14px;
+	line-height: 19px;
+	color: black;
+	margin-left: 17px;
+}
+
+.five-container2{
+	background: #131313;
+	box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+	width: 506px;
+	height: 509px;
+	margin-right: 100px; 
+	display: flex;
+	flex-direction: column;
+}
+
+.five-container2-text{
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+	margin-top: 28px;
+}
+
+.input2{
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-left: 49px;
+}
+
+.input5{
+	font-size: 14px;
+    line-height: 23px;
+    border-style: solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-color: rgba(255, 255, 255, 0.15);
+    height: 32px;
+    background-color: #131313;
+    width: 408px;
+}
+
+.label5{
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 13px;
+	line-height: 21px;
+}
+
+.five-margin{
+	margin-top: 48px;
+	
+}
+
+.div-checkbox2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 16px;
+
+}
+
+.checkbox2{
+	cursor: pointer;
+}
+
+.checkbox-text2{
+	font-size: 14px;
+	line-height: 23px;
+}
+
+.five-button{
+	margin-top: 39px;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 49px;
+}
+
+.button5{
+	width: 213px;
+	height: 51px;
+	font-size: 13px;
+	line-height: 21px;
+	color: white;
+	border: 1px solid white;
+}
+
+.pig{
+	display: flex;
+	margin-top: 38px;
+}
+
+.pig_text{
+	font-size: 18px;
+	line-height: 26px;
+	color: #E3B873;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* Six block */
+
+
+
+
+
+
+
+
+
+.six{
+	background-image: url(../images/six.png);
+	background-size: cover;
+	position: relative;
+	margin-top: 242px;
+}
+
+.six-container{
+	height: 864px;
+	position: relative;
+	z-index: 1;
+}
+
+.six-container1{
+	display: flex;
+	flex-direction: column;
+}
+
+.six-overlay{
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.six-title{
+	font-size: 27px;
+	line-height: 37px;
+	text-transform: uppercase;
+	color: #E3B873;
+}
+
+.six-ul{
+	list-style-type: none;
+}
+
+.six-li{
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 38px;
+	color: #FFFFFF;
+	margin-top: 25px;
+}
+
+.six-li:hover{
+	color: #E3B873;
+	cursor: pointer;
+	border-bottom: 1px solid #E3B873;
 }
