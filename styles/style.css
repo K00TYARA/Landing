@@ -766,6 +766,8 @@ header{
 .six-container1{
 	display: flex;
 	flex-direction: column;
+	margin-left: 99px;
+	padding-top: 137px;
 }
 
 .six-overlay{
@@ -787,6 +789,8 @@ header{
 
 .six-ul{
 	list-style-type: none;
+	padding: 0;
+	margin-top: 25px;
 }
 
 .six-li{
@@ -794,11 +798,20 @@ header{
 	font-size: 20px;
 	line-height: 38px;
 	color: #FFFFFF;
-	margin-top: 25px;
+	
 }
 
 .six-li:hover{
 	color: #E3B873;
 	cursor: pointer;
 	border-bottom: 1px solid #E3B873;
+}
+
+.li-six{
+	margin-top: 25px;
+	font-size: 20px;
+}
+
+.li-six1{
+	padding-top: 47px;
 }
