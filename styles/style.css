@@ -327,9 +327,6 @@ header{
 
 
 
-.third{
-	height: 1000px;
-}
 
 .third-container{
 	margin-top: -370px;
@@ -534,8 +531,7 @@ header{
     margin-top: -127px;
     width: 330px;
     height: 300px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
-    
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);  
 }
 
 .picture4-title{
@@ -592,6 +588,7 @@ header{
 
 
 .five{
+	margin-top: 
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
@@ -761,6 +758,8 @@ header{
 	height: 864px;
 	position: relative;
 	z-index: 1;
+	display: flex;
+	flex-direction: row;
 }
 
 .six-container1{
@@ -796,7 +795,6 @@ header{
 .six-li{
 	text-decoration: none;
 	font-size: 20px;
-	line-height: 38px;
 	color: #FFFFFF;
 	
 }
@@ -812,6 +810,146 @@ header{
 	font-size: 20px;
 }
 
-.li-six1{
-	padding-top: 47px;
+.six-container2{
+	display: flex;
+	flex-direction: row;
+	margin-left: 160px;
+}
+
+.six-container3{
+	display: flex;
+	flex-direction: column;
+}
+
+.six-img1{
+	margin-right: 43px;
+	margin-top: -40px;
+}
+
+.six-img2{
+	margin-top: -100px;
+}
+
+.six-png1{
+	margin-bottom: 39px;
+}
+
+.six-png3{
+	margin-bottom: 37px;
+}
+
+
+
+
+
+
+
+/* Seven block */
+
+
+
+
+
+.seven{
+	height: 1107px;
+	margin-top: 110px; 
+}
+
+.seven-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.seven-title{
+	font-size: 20px;
+	line-height: 28px;
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+}
+
+.hands{
+	margin-top: 13px;
+}
+
+.seven-text{
+	font-size: 18px;
+	text-align: center;
+	color: #363636;
+	margin-top: 24px;
+}
+
+.seven-blocks{
+	display: flex;
+	flex-direction: row;
+	margin-top: 39px;
+}
+
+.seven-block{
+	background-color: white;
+    width: 376px;
+    height: 428px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-direction: column;
+}
+
+.seven-block_margin{
+	margin-right: 54px;
+}
+
+.seven-block_flex{
+	display: flex;
+	flex-direction: row;
+	margin-top: 24px;
+}
+
+.seven-block_title{
+	font-size: 18px;
+	color: #181818;
+	margin-left: 
+}
+
+.seven-img{
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+.seven-block_text1{
+	font-size: 13px;
+	color: #959595;
+	margin-top: 22px;
+}
+
+.seven-block_text_margin{
+	margin-top: 0px;
+}
+
+.seven-block2{
+	width: 293px;
+    height: 54px;
+    margin-top: -27px;
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seven21{
+	margin-right: 15px;
+}
+
+.seven22{
+	margin-left: 14px;
+	margin-right: 17px;
+}
+
+.seven23{
+	margin-right: 15px;
 }
