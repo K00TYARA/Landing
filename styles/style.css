@@ -464,6 +464,10 @@ header{
 	color: black;
 }
 
+.checkbox-text1:hover{
+	cursor: pointer;
+}
+
 
 
 
@@ -699,6 +703,10 @@ header{
 .checkbox-text2{
 	font-size: 14px;
 	line-height: 23px;
+}
+
+.checkbox-text2{
+	cursor: pointer;
 }
 
 .five-button{
@@ -1066,6 +1074,10 @@ header{
 .checkbox-text8{
 	font-size: 14px;
 	color: white;
+}
+
+.checkbox-text8:hover{
+	cursor: pointer;
 }
 
 .div-checkbox8{
