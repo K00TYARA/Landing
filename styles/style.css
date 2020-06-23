@@ -19,7 +19,7 @@ body *{
 }
 
 header{
-	background-color: black;
+	background-color: #131313;
 }
 
 
@@ -588,7 +588,6 @@ header{
 
 
 .five{
-	margin-top: 
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
@@ -851,8 +850,11 @@ header{
 
 
 .seven{
-	height: 1107px;
-	margin-top: 110px; 
+	height: 1100px;
+	margin-top: 110px;
+	background-image: url(../images/seven-background.png); 
+	position: relative;
+	background-size: cover;
 }
 
 .seven-container{
@@ -914,6 +916,8 @@ header{
 .seven-img{
 	border-radius: 50%;
 	margin-right: 20px;
+	width: 76px;
+	height: 76px;
 }
 
 .seven-block_text1{
@@ -952,4 +956,174 @@ header{
 
 .seven23{
 	margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+/* Eight block */
+
+
+
+
+
+
+
+.eight{
+	background-size: cover;
+	height: 953px;
+	background-image: url(../images/eight-background.png);
+	position: relative;
+}
+
+.eight-overlay{
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.eight-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: 1;
+}
+
+.eight-div1{
+	width: 883px;
+	height: 445px;
+	background-color: #181818;
+	margin-top: -222px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.eight-div1_title{
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.eight-input1{
+	display: flex;
+	flex-direction: row;
+}
+
+.input8{
+	font-size: 14px;
+    line-height: 23px;
+    border-style: solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-color: rgba(255, 255, 255, 0.15);
+    height: 32px;
+    background-color: #181818;
+    width: 231px;
+}
+
+.label8{
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 13px;
+}
+
+.eight-margin_name1{
+	margin-right: 58px;
+}
+
+.questions1{
+	display: flex;
+	flex-direction: column;
+	margin-top: 49px;
+}
+
+.input8_2{
+	font-size: 14px;
+    line-height: 23px;
+    border-style: solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-color: rgba(255, 255, 255, 0.15);
+    height: 32px;
+    background-color: #181818;
+    width: 517px;
+}
+
+.checkbox-text8{
+	font-size: 14px;
+	color: white;
+}
+
+.div-checkbox8{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 48px;
+}
+
+.button8{
+	width: 200px;
+	height: 51px;
+	font-size: 13px;
+	line-height: 27px;
+	color: white;
+	border: 1px solid white;
+	margin-top: 50px;
+}
+
+.eight-title{
+	margin-top: 52px;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #E3B873;
+	text-align: center;
+}
+
+.eight-title:hover{
+	cursor: pointer;
+}
+
+.eight-div2{
+	display: flex;
+	flex-direction: row;
+	margin-top: 26px;
+}
+
+.eight-icon_margin{
+	margin-right: 15px;
+}
+
+.eight-icon:hover{
+	cursor: pointer;
+}
+
+.eight-img{
+	margin-top: 43px;
+	width: 925px;
+	height: 465px;
+}
+
+
+
+
+
+
+
+
+footer{
+	background-color: #181818;
 }
