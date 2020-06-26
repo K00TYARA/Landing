@@ -53,13 +53,13 @@ header{
 	height: 83px;
 }
 
-.logo, .number{
+.number{
 	color: #E3B873;
 }
 
 .logo{
-	margin-left: -75px;
 	text-transform: uppercase;
+	color: #E3B873;
 }
 
 .button{
