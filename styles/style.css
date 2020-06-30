@@ -448,7 +448,33 @@ header{
 }
 
 .checkbox1{
+	display: none;
+}
+
+.fake-checkbox{
+	width: 18px;
+	height: 18px;
+	border-radius: 1px;
+	background-color: #E3B873;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 1px;
+
+}
+
+.fake-checkbox:hover{
 	cursor: pointer;
+}
+
+.fake-checkbox::before{
+	content: url(../images/tick.svg);
+	opacity: 0;
+	transition: .2s;
+}
+
+.checkbox1:checked + .fake-checkbox::before{
+	opacity: 1;
 }
 
 .div-checkbox1{
@@ -462,9 +488,16 @@ header{
 	font-size: 14px;
 	line-height: 23px;
 	color: black;
+	margin-left: 9px;
 }
 
 .checkbox-text1:hover{
+	cursor: pointer;
+}
+
+.label3{
+	display: flex;
+	align-items: center;
 	cursor: pointer;
 }
 
@@ -1127,6 +1160,13 @@ header{
 	margin-top: 43px;
 	width: 925px;
 	height: 465px;
+}
+
+.checkbox-text3{
+	font-size: 14px;
+	line-height: 23px;
+	color: white;
+	margin-left: 9px;
 }
 
 
