@@ -522,7 +522,7 @@ header{
 
 
 
-/* Fourh block */
+/* Fourth block */
 
 
 
@@ -1208,8 +1208,8 @@ footer{
 
 
 @media screen and (max-width: 1300px){
-	/*section:not(.third){
-		display: none;*/
+	section:not(.fourth){
+		display: none;
 	}
 
 	footer{
@@ -1475,4 +1475,39 @@ footer{
 	.checkbox-text1{
 		color: white;
 	}
+
+
+
+
+
+
+
+
+
+	/* Mobile fourth block */
+
+
+
+
+
+
+
+	.picture4{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.picture4-div{
+		display: flex;
+		align-items: flex-start;
+		margin-top: 59px;
+	}
+
+	.image{
+		width: 340px;
+		height: 365px;
+	}
+
+
 }
