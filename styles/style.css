@@ -227,7 +227,6 @@ header{
 .second-text{
 	font-size: 14px;
 	line-height: 27px;
-	width: 442px;
 }
 
 .second-subtitle{
@@ -252,6 +251,10 @@ header{
 .second-info{
 	margin-top: 42px;
 	width: 450px;
+}
+
+.second-info_mobile{
+	display: none;
 }
 
 .second-info__item{
@@ -438,6 +441,10 @@ header{
     border-color: rgba(54, 54, 54, 0.5);
     height: 32px;
     width: 231px;
+}
+
+.input1-mobile{
+	display: none;
 }
 
 .button3{
@@ -1201,8 +1208,8 @@ footer{
 
 
 @media screen and (max-width: 1300px){
-	section:not(.second){
-		display: none;
+	/*section:not(.third){
+		display: none;*/
 	}
 
 	footer{
@@ -1284,6 +1291,9 @@ footer{
 
 	.first-button{
 		margin-top: 45px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.button2_1{
@@ -1328,6 +1338,14 @@ footer{
 		display: none;
 	}
 
+	.second-info{
+		display: none;
+	}
+
+	.second-image{
+		display: none;
+	}
+
 	.second-title{
 		font-size: 22px;
 	}
@@ -1343,5 +1361,118 @@ footer{
 
 	.second-container2{
 		margin: 36px 18px;
+	}
+
+	.second-info_mobile{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 36px;
+	}
+
+	.second-image_mobile{
+		width: 340px;
+		height: 241px;
+	}
+
+	.second-subtitle{
+		font-size: 14px;
+	}
+
+	.second-info__text{
+		font-size: 11px;
+	}
+
+	.second-info__ul__mobile{
+		display: flex;
+		width: 341px;
+		margin-left: -75px;
+	}
+
+	.second-info__item{
+		text-align: start;
+	}
+
+
+
+
+
+
+	/* Mobile third block */
+
+
+
+
+
+
+	.third-container{
+		background-color: black;
+		background-size: cover;
+	}
+
+	.picture1{
+		width: 340px;
+		height: 207px;
+	}
+
+	.third-piture1{
+		width: 340px;
+		height: 207px;
+	}
+
+	.pusk{
+		height: 37px;
+		width: 37px;
+	}
+
+	.third-text{
+		font-size: 11px;
+		line-height: 19px;
+		width: 340px;
+		margin-top: 21px;
+		color: white;
+	}
+
+	.input1{
+		display: none;
+	}
+
+	.input1-mobile{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		margin-right: -60px; 	
+	}
+
+	.third-margin{
+		margin-top: 62px;
+	}
+
+	.input{
+		width: 340px;
+		background-color: black;
+	}
+
+	.div-checkbox1{
+		margin-top: 28px;
+	}
+
+	.third-button{
+		margin-top: 62px;
+	}
+
+	.button3{
+		text-align: center;
+		width: 340px;
+		color: white;
+		background-color: #E3B873;
+	}
+
+	.label{
+		color: rgba(255, 255, 255, 0.5);
+	}
+
+	.checkbox-text1{
+		color: white;
 	}
 }
