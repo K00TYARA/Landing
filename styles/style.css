@@ -891,6 +891,10 @@ header{
 	margin-bottom: 37px;
 }
 
+.six-png1__mobile{
+	display: none;
+}
+
 
 
 
@@ -1024,6 +1028,7 @@ header{
 
 
 /* Eight block */
+
 
 
 
@@ -1188,6 +1193,14 @@ header{
 	line-height: 23px;
 	color: white;
 	margin-left: 9px;
+}
+
+.eight-div2__mobile{
+	display: none;
+}
+
+.display-none__mobile{
+	display: none;
 }
 
 
@@ -1668,6 +1681,14 @@ footer{
 	.eight-img{
 		width: 356px;
 		height: 367px;
+	}
+
+	.display-none__mobile{
+		display: block;
+	}
+
+	.display-none__comp{
+		display: none;
 	}
 
 
