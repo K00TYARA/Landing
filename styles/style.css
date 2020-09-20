@@ -1068,6 +1068,10 @@ header{
 	align-items: center;
 }
 
+.eight-div1__mobile{
+	display: none;
+}
+
 .eight-div1_title{
 	font-size: 20px;
 	text-align: center;
@@ -1212,13 +1216,10 @@ footer{
 
 
 @media screen and (max-width: 1300px){
-	/*section:not(.six){
+	section:not(.eight){
 		display: none;
 	}
 
-	footer{
-		display: none;
-	}*/
 
 
 
@@ -1544,6 +1545,7 @@ footer{
 
 	.six{
 		background: none;
+		margin: 0;
 	}
 
 	.six-container{
@@ -1587,5 +1589,107 @@ footer{
 
 	.six-title{
 		text-align: center;
+	}
+
+
+
+
+
+
+
+
+	/* Mobile Eight block */
+
+
+
+
+
+
+
+
+	.eight{
+		background-image: none;
+	}
+
+	.eight-div1_title{
+		margin-bottom: 52px;
+	}
+
+	.eight-container{
+		background-color: #151515;
+		padding-bottom: 49px;
+	}
+
+	.eight-div1{
+		display: none;
+	}
+
+	.eight-div1__mobile{
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.eight-input1{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.eight-margin_name1{
+		margin-right: 0;
+
+	}
+
+	.eight-margin{
+		background-color: #151515;
+		margin-top: 63px;
+	}
+
+	.input8{
+		background-color: #151515;
+		width: 340px;
+	}
+
+	.third-button{
+		margin-top: 0;
+	}
+
+	.button8{
+		width: 340px;
+	}
+
+	.eight-icon{
+		width: 39px;
+		height: 39px;
+	}
+
+	.eight-img{
+		width: 356px;
+		height: 367px;
+	}
+
+
+
+
+
+
+
+
+
+
+	/* Mobile Footer */
+
+
+
+
+
+
+
+
+
+	footer{
+		display: none;
 	}
 }
