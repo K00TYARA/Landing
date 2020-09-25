@@ -199,7 +199,7 @@ header{
 
 
 .second{
-	background-color: black;
+	background-color: #131313;
 	background-size: cover;
 }
 
@@ -259,6 +259,7 @@ header{
 
 .second-info__item{
 	width: 218px;
+	list-style-type: none;
 }
 
 .circle{
@@ -399,7 +400,6 @@ header{
 
 .input1{
 	display: flex;
-	justify-content: center;
 	align-items: center;
 	margin-top: 93px;
 }
@@ -533,9 +533,6 @@ header{
 
 
 
-.fourth{
-	height: 1000px;
-}
 
 .fourth-container{
 	display: flex;
@@ -641,23 +638,29 @@ header{
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
+	margin-top: 230px;
 }
 
 .five-container1{
 	display: flex;
 	background-size: cover;
-	margin-top: -120px;
 }
 
 .five-div{
 	background-image: url(../images/five.png);
 	width: 703px;
 	height: 645px;
+	margin-top: -100px;
 }
 
 .five-div1{
 	display: flex;
 	margin-top: 90px;
+	margin-left: 249px;
+}
+
+.five-div11{
+	display: flex;
 	margin-left: 249px;
 }
 
@@ -808,7 +811,7 @@ header{
 }
 
 .six-container{
-	height: 864px;
+
 	position: relative;
 	z-index: 1;
 	display: flex;
@@ -908,7 +911,7 @@ header{
 
 
 .seven{
-	height: 1100px;
+	height: 1107px;
 	margin-top: 110px;
 	background-image: url(../images/seven-background.png); 
 	position: relative;
@@ -1038,7 +1041,6 @@ header{
 
 .eight{
 	background-size: cover;
-	height: 953px;
 	background-image: url(../images/eight-background.png);
 	position: relative;
 }
@@ -1060,6 +1062,7 @@ header{
 	align-items: center;
 	position: relative;
 	z-index: 1;
+	padding-bottom: 43px;
 }
 
 .eight-div1{
@@ -1067,6 +1070,7 @@ header{
 	height: 445px;
 	background-color: #181818;
 	margin-top: -222px;
+
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -1229,9 +1233,6 @@ footer{
 
 
 @media screen and (max-width: 1300px){
-	section:not(.eight){
-		display: none;
-	}
 
 
 
@@ -1247,6 +1248,9 @@ footer{
 
 
 
+	header{
+		background-color: #181818;
+	}
 
 	.nav-none{
 		display: none;
@@ -1338,10 +1342,14 @@ footer{
 	}
 
 	.second-container{
+		background-color: #181818;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		padding-bottom: 0;
+		margin-top: -80px;
 	}
+
 
 	.second-container1{
 		display: flex;
@@ -1405,11 +1413,13 @@ footer{
 		display: flex;
 		width: 341px;
 		margin-left: -75px;
+
 	}
 
 	.second-info__item{
 		text-align: start;
 	}
+
 
 
 
@@ -1424,8 +1434,9 @@ footer{
 
 
 	.third-container{
-		background-color: black;
+		background-color: #181818;
 		background-size: cover;
+		margin: 0;
 	}
 
 	.picture1{
@@ -1458,28 +1469,30 @@ footer{
 	.input1-mobile{
 		display: flex;
 		flex-direction: column;
-		align-items: flex-start;
-		margin-right: -60px; 	
+		align-items: flex-start; 	
 	}
 
 	.third-margin{
 		margin-top: 62px;
+		margin-right: 0;
 	}
 
 	.input{
 		width: 340px;
-		background-color: black;
+		background-color: #181818;
 	}
 
 	.div-checkbox1{
 		margin-top: 28px;
+		margin-bottom: 62px;
 	}
 
 	.third-button{
-		margin-top: 62px;
+		margin-bottom: -26px;
 	}
 
 	.button3{
+		border: none;
 		text-align: center;
 		width: 340px;
 		color: white;
@@ -1509,6 +1522,9 @@ footer{
 
 
 
+	.fourth{
+		margin-bottom: -80px;
+	}
 
 	.picture4{
 		display: flex;
@@ -1520,11 +1536,25 @@ footer{
 		display: flex;
 		align-items: flex-start;
 		margin-top: 59px;
+		margin-right: 0; 
 	}
 
 	.image{
 		width: 340px;
 		height: 365px;
+	}
+
+	.tools{
+		margin-top: 17px;
+		margin-bottom: 40px;
+	}
+
+	.fourth-title{
+		margin: 0;
+	}
+
+	.fourth-margin{
+		margin-top: 0;
 	}
 
 
@@ -1558,13 +1588,15 @@ footer{
 
 	.six{
 		background: none;
-		margin: 0;
+		margin-top: 0;
 	}
 
 	.six-container{
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		margin-bottom: -121px;
+		z-index: 2;
 	}
 
 	.six-overlay{
@@ -1596,6 +1628,7 @@ footer{
 	}
 
 	.six-png1__mobile{
+		display: block;
 		width: 340px;
 		height: 242px;
 	}
@@ -1622,6 +1655,7 @@ footer{
 
 	.eight{
 		background-image: none;
+
 	}
 
 	.eight-div1_title{
@@ -1631,6 +1665,7 @@ footer{
 	.eight-container{
 		background-color: #151515;
 		padding-bottom: 49px;
+		padding-top: 173px;
 	}
 
 	.eight-div1{
