@@ -315,6 +315,10 @@ header{
 	margin-top: 53px;
 }
 
+.second-overlay{
+	display: none;
+}
+
 
 
 
@@ -808,6 +812,10 @@ header{
 	background-size: cover;
 	position: relative;
 	margin-top: 242px;
+}
+
+.six-overlay__mobile{
+	display: none;
 }
 
 .six-container{
@@ -1394,6 +1402,7 @@ footer{
 		flex-direction: column;
 		align-items: center;
 		margin-top: 36px;
+		position: relative;
 	}
 
 	.second-image_mobile{
@@ -1418,6 +1427,20 @@ footer{
 
 	.second-info__item{
 		text-align: start;
+	}
+
+	.second-overlay{
+		display: block;
+		position: absolute;
+		margin-top: 103px;
+	}
+
+	.second-arrow1{
+		margin-right: 120px;
+	}
+
+	.second-arrow2{
+		margin-left: 120px;
 	}
 
 
@@ -1450,8 +1473,8 @@ footer{
 	}
 
 	.pusk{
-		height: 37px;
-		width: 37px;
+		height: 50px;
+		width: 50px;
 	}
 
 	.third-text{
@@ -1599,6 +1622,10 @@ footer{
 		z-index: 2;
 	}
 
+	.six-container2{
+		position: relative;
+	}
+
 	.six-overlay{
 		display: none;
 	}
@@ -1617,6 +1644,7 @@ footer{
 
 	.six-container1{
 		margin-left: 0;
+		position: relative;
 	}
 
 	.six-container2{
@@ -1636,6 +1664,22 @@ footer{
 	.six-title{
 		text-align: center;
 	}
+
+
+	.six-overlay__mobile{
+		position: absolute;
+		display: flex;
+		align-items: center;
+	}
+
+	.six-container__mobile{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 36px;
+		position: relative;
+	}
+
 
 
 
@@ -1714,8 +1758,8 @@ footer{
 	}
 
 	.eight-img{
-		width: 356px;
-		height: 367px;
+		width: 340px;
+		height: 255px;
 	}
 
 	.display-none__mobile{
